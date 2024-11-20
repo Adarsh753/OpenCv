@@ -1,4 +1,4 @@
-# This file is used to practice Input/Output of an image with OpenCV
+# This file is used to practice Input/Output operation of an image,video,webcam with OpenCV
 import cv2
 
 #read an image
