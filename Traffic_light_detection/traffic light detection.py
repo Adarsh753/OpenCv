@@ -11,7 +11,7 @@ upper_yellow = np.array([30, 255, 255]) # Upper bound for yellow
 lower_green = np.array([40, 50, 50]) # Lower bound for green
 upper_green = np.array([90, 255, 255]) # Upper bound for green
 
-cap = cv2.VideoCapture(r"c:\Users\Asus\Downloads\3087320-uhd_3840_2160_30fps.mp4") # Replace with your video file path
+cap = cv2.VideoCapture(r"D:\OpenCv\Resources\3087320-uhd_3840_2160_30fps.mp4") # Replace with your video file path
 
 while True:
     ret, frame = cap.read()

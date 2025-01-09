@@ -16,7 +16,7 @@ while True:
     mask_ = Image.fromarray(mask)
     
     bbox= mask_.getbbox()
-    #print(bbox)
+    print(bbox)
 
     if bbox is not None:
         x1 , y1 , x2 , y2 = bbox 
